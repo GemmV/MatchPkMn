@@ -57,9 +57,14 @@ body {
 }
 
 .carta {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   list-style-type: none;
   display: inline;
-  padding: 30px 20px;
+  padding: 0;
+  margin: 30px 20px;
+  border: 2px solid blue;
 }
 
 /*# sourceMappingURL=main.css.map */
