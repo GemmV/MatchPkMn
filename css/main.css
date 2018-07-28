@@ -57,14 +57,15 @@ body {
 }
 
 .carta {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   list-style-type: none;
   display: inline;
-  padding: 0;
+  padding: 4px 4px 0 4px;
   margin: 30px 20px;
   border: 2px solid blue;
+}
+
+* {
+  border: 1px solid red;
 }
 
 /*# sourceMappingURL=main.css.map */
