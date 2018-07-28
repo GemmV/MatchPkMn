@@ -12,7 +12,6 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 50px;
 }
 
 .titulo {
@@ -39,27 +38,4 @@
   margin-left: 10px;
 }
 
-body {
-  background: url("../images/pokeballs.jpg") center center no-repeat #fff;
-  background-position: top;
-}
-
-.contenidoprincipal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.carta {
-  list-style-type: none;
-  display: inline;
-  padding: 30px 20px;
-}
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=sheader.css.map */

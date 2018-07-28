@@ -1,0 +1,16 @@
+body {
+	background: url('../images/pokeballs.jpg') center center no-repeat #fff;
+	background-position: top;
+}
+
+.contenidoprincipal{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.carta {
+	list-style-type: none;
+	display: inline;
+	padding: 30px 20px;
+}
