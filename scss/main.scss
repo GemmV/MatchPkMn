@@ -1,9 +1,4 @@
-@import 'core/settings';
-@import 'styles/sheader';
-@import 'styles/smain';
-@import 'styles/sfooter';
-
-
-*{
-    border: 1px solid red;
-}
+@import 'core/_settings';
+@import 'styles/_sheader';
+@import 'styles/_smain';
+@import 'styles/_sfooter';

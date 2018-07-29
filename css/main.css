@@ -55,20 +55,25 @@ body {
   align-items: center;
 }
 
-.listadecartas {
+.listadelis {
+  width: 100vh;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  list-style: none;
 }
 
-.carta {
-  list-style-type: none;
-  display: inline-block;
-  padding: 4px 4px 0 4px;
-  margin: 30px 20px;
-  border: 2px solid blue;
+.li {
+  margin: 20px;
 }
 
-* {
-  border: 1px solid red;
+.claseoculta {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
