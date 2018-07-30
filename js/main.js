@@ -48,6 +48,7 @@ function comenzar (){
     	promesa = llamadaApi();
 	}
 
+	//pintando el HTML
 	promesa.then(function(lista_de_cartas){
 		console.log(lista_de_cartas);
 
@@ -74,40 +75,4 @@ function comenzar (){
 	})
 }
 
-
-
 botonComenzar.addEventListener('click', comenzar);
-
-
-
-
-// function comenzarJuego (urlApi){
-    
-// }
-    // fetch(urlApi + '/4.json')
-    //   .then(function(response){
-    //     return response.json();
-
-    
-//  console.log(comenzarJuego);
-
-
-// // UL.innerHTML = PoKemon;
-
-// // console.log(urlApi);
-// // console.log(PoKemon);
-
-//     // if () {
-//     //  
-        
-//     // } else if (condition) {
-        
-//     // } {
-                
-//     // }
-// // //llamada a la URL BOTON 1
-// // fetch(urlApi + '8.json')
-// //     .then(function(response){
-// //         return response.txt();
-// // })
-// // //https://raw.githubusercontent.com/Adalab/cards-data/master/NUMERO.json
