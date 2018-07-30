@@ -6,9 +6,9 @@ var click8 = document.getElementById('iddelboton3');
 var botonComenzar = document.getElementById('iddelboton4');
  
 var urlApi = 'https://raw.githubusercontent.com/Adalab/cards-data/master/';
-var cuatro = "4.json";
-var seis = "6.json";
-var ocho = "8.json";
+var cuatro = '4.json';
+var seis = '6.json';
+var ocho = '8.json';
 var dorso = 'https://via.placeholder.com/160x195/30d9c4/ffffff/?text=ADALAB';
 
 var promesa;
@@ -45,7 +45,8 @@ function comenzar (){
       		});
       		return result;
     	}
-    	promesa = llamadaApi();
+		promesa = llamadaApi();
+		console.log(promesa);
 	}
 
 	//pintando el HTML
@@ -59,6 +60,7 @@ function comenzar (){
 			imagen1.src = carta.image;
 			imagen2.src = dorso;
 			imagen1.classList.add('claseoculta');
+			imagen1.classList.add('escalado');
 			nuevoLi.classList.add('li');
 						
 			function cambiarDorso(){

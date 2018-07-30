@@ -19,12 +19,16 @@ body {
 	justify-content: center;
 }
 
+.escalado{
+	width: 160px;
+	height: 195px;
+}
+
 .claseoculta {
 	display: none;
 }
 
  .li {
-// 	list-style-type: none;
  	margin: 30px 20px;
 	border: $BordeCarta;
 	background-color: #fff;
